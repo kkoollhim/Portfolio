@@ -1,0 +1,121 @@
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+  }
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    /* align-items: stretch; */
+}
+
+#sidebar {
+    position: fixed;
+    top: 0; left:0;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background-color: black;
+    flex-grow: 2;
+}
+
+#sidebar .sidebar-header {
+    text-align: center;
+}
+
+#sidebar .sidebar-header img{
+    height: 100px;
+    width: 100px;
+    border: 5px solid #555;
+    border-radius: 50%;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+#sidebar .sidebar-header p {
+    color: white;
+    font-size: 18px;
+}
+
+#sidebar .sidebar-header .fa {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 4px 10px 4px;
+    background-color: #555;
+    border-radius: 50%;
+}
+
+#sidebar .list-group .list-group-item{
+    background-color: #000000;
+}
+
+#sidebar .list-group .list-group-item a{
+    color: #F5F5F5;
+}
+
+a:hover{
+    text-decoration: none !important;
+    font-size: 18px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 2px;
+    text-align: center;
+    color: #a7a7a7;
+    min-width: inherit;
+}
+
+.copyright p {
+    margin-bottom: 2px;
+}
+
+.content div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home {
+    background-image: url('home.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#about {
+    background-color: rgb(33, 33, 34);
+}
+
+#about h1 {
+    color: white;
+    font-size: 30px;
+}
+
+#resume {
+    background-color: rgb(33, 33, 34);
+}
+
+#resume a {
+    color: white;
+    font-size: 30px;
+}
+
+#portfolio {
+    background-image: url('portfolio.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#services {
+    background-image: url('services.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#contact {
+    background-image: url('contact.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
